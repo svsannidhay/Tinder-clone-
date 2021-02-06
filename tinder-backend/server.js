@@ -11,6 +11,7 @@ const connection_url = "mongodb+srv://admin:Physics54321@cluster0.25kmy.mongodb.
 app.use(express.json())
 app.use(Cors());
 
+
 //DB Config
 mongoose.connect(connection_url,{
   useNewUrlParser: true,
