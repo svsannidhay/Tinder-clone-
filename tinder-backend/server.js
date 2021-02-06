@@ -1,5 +1,5 @@
-import express from 'express'
-import mongoose from 'mongoose'
+import express from 'express';
+import mongoose from 'mongoose';
 import Cards from './dbCards.js';
 import Cors from 'cors';
 //App Config
