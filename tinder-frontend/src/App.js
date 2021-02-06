@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import TinderCards from './TinderCards';
+import SwipeButtons from './SwipeButtons';
 import "./App.css";
 
 function App() {
@@ -8,9 +9,9 @@ function App() {
     <div className="App">
       <Header/>
       <TinderCards/>
-      {/*Buttons*/}
+      <SwipeButtons/>
     </div>
-  )
+  ) 
 }
 
 export default App
